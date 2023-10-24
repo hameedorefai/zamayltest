@@ -1,0 +1,21 @@
+السلام عليكم 
+مرفق لكم فيديوهات شرح مقرر هيكلية الحاسوب ولغة أسمبلي:
+
+1- هيكلية المعالج 8086 "البنية الداخلية" الوحدة الأولى
+https://www.youtube.com/watch?v=EdWB6hw6_Zs&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=1
+
+2- العنوان الفيزيائي والإزاحة الوحدة الأولى
+https://www.youtube.com/watch?v=56XOFBwuODk&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=2
+
+3- أساليب العنونة الوحدة الأولى
+https://www.youtube.com/watch?v=pyByHyOVEeA&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=3
+
+4- الأوردينو الوحدة الثانية
+https://www.youtube.com/watch?v=b--b0nx-YVA&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=4
+
+5- الراسبيري باي الوحدة الثانية
+https://www.youtube.com/watch?v=uoYwnyvUq-I&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=5
+
+6- الدوائر المتكاملة الوحدة الثانية
+https://www.youtube.com/watch?v=dNVFCfBPQsU&list=PL1-q_IbQofrMeYy85Q3csrxjdECve9sZk&index=6
+✍🏼 د. مصلح مصلح
