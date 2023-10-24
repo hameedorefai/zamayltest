@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)https://portal.qou.edu/portalLogin.do?reLogin=y -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>جامعة القدس المفتوحة</title>
+<meta name="Description" content="تهدف بوابة الجامعة الأكاديمية إلى دعم بيئة التعليم الإلكتروني، وزيادة فرص التواصل بين كافة القطاعات في الجامعة من أعضاء هيئة تدريس، وطلاب، ودوائر .تعتبر البوابة الأكاديمية وسيلة مساندة لأعضاء هيئة التدريس والطلاب في مواجهة الصعوبات والأوضــاع الداخلية في فلسطين">
+
+
+<meta content="MSHTML 6.00.2600.0" name="GENERATOR">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="IE=9">
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/bootstrap-rtl.css">
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/ajaxMethods.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/jquery.1.11.1.min.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/bootstrap.min.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/jquery.dataTables.min.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/dataTables.bootstrap.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/jquery.bootstrap.newsbox.min.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/bootstrap-datepicker.css">
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/bootstrap-datepicker.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/qouNewStyle.css">
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/commonsQou.js.download"></script>
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/sidemenu.css">
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/SideMenu.js.download"></script>
+<script type="text/javascript" language="javascript" src="./جامعة القدس المفتوحة_files/tapclick.js.download"></script>
+</head>
+
+<body topmargin="0">
+<script>
+    $(document).ready(function () {
+
+        $(function () {
+
+            if ($('#ftr').hasScrollBar())
+                $("#ftr").removeClass("navbar-fixed-bottom")
+            else
+                $("#ftr").addClass("navbar-fixed-bottom")
+        });
+
+        (function ($) {
+            $.fn.hasScrollBar = function () {
+                var db = document.body;
+                var dde = document.documentElement;
+                var docHeight = Math.max(db.scrollHeight, dde.scrollHeight, db.offsetHeight, dde.offsetHeight, db.clientHeight, dde.clientHeight)
+                return (docHeight !== document.documentElement.clientHeight);
+            }
+        })(jQuery);
+
+    });
+
+</script>
+<style>
+    body {
+        background-image:url('/pages/resources/images/loginBg2020.jpg');
+        background-repeat:no-repeat;
+        background-size:100%;
+        background-size:cover;
+     }
+
+    html, body {
+        min-height: 100%;
+    }
+
+</style>
+<div id="main" class="container-fluid">
+<div class="row">
+<div class="col-sm-12 col-md-12">
+<script>
+    function makeArray() {
+         for (i = 0; i<makeArray.arguments.length; i++)
+             this[i] = makeArray.arguments[i];
+     }
+
+    function getFullYear(d) {
+        var y = d.getYear();
+        if (y < 1000) {y += 1900};
+        return y;
+    }
+
+
+    //var zone = "EDT";
+    var days = new makeArray("&#1575;&#1604;&#1575;&#1581;&#1583;","&#1575;&#1604;&#1575;&#1579;&#1606;&#1610;&#1606;","&#1575;&#1604;&#1579;&#1604;&#1575;&#1579;&#1575;&#1569;","&#1575;&#1604;&#1575;&#1585;&#1576;&#1593;&#1575;&#1569;","&#1575;&#1604;&#1582;&#1605;&#1610;&#1587;","&#1575;&#1604;&#1580;&#1605;&#1593;&#1577;","&#1575;&#1604;&#1587;&#1576;&#1578;");
+    var months = new makeArray("&#1603;&#1575;&#1606;&#1608;&#1606; &#1579;&#1575;&#1606;&#1610;","&#1588;&#1576;&#1575;&#1591;","&#1570;&#1584;&#1575;&#1585;","&#1606;&#1610;&#1587;&#1575;&#1606;","&#1571;&#1610;&#1575;&#1585;","&#1581;&#1586;&#1610;&#1585;&#1575;&#1606;","&#1578;&#1605;&#1608;&#1586;","&#1570;&#1576;","&#1571;&#1610;&#1604;&#1608;&#1604;","&#1578;&#1588;&#1585;&#1610;&#1606; &#1571;&#1608;&#1604;","&#1578;&#1588;&#1585;&#1610;&#1606; &#1579;&#1575;&#1606;&#1610;","&#1603;&#1575;&#1606;&#1608;&#1606; &#1571;&#1608;&#1604;");
+
+    function format_time(t) {
+
+        var Day = t.getDay();
+        var Date = t.getDate();
+        var Month = t.getMonth();
+        var Year = t.getFullYear();
+
+        timeString = "";
+        timeString += days[Day];
+        timeString += "/ ";
+        timeString += " ";
+        timeString += Date;
+        timeString += " ";
+        timeString += months[Month];
+        timeString += "/ ";
+        timeString += " ";
+        timeString += Year;
+
+       return timeString;
+     }
+</script>
+<div class="row panel-header">
+<div class="col-sm-1 col-md-1"></div>
+<div class="col-sm-10 col-md-10">
+<div id="hdrLogo" class="visible-xs hidden-lg hidden-md hidden-sm panel-header">
+<div id="qouLogo">
+<img class="qouLogoNew" src="./جامعة القدس المفتوحة_files/qouLogoNew.png">
+<span class="label-logo">&nbsp;البوابة الاكاديمية</span>
+</div>
+</div>
+<div class="hidden-xs visible-lg visible-md visible-sm paddingRight13">
+<img id="logo" class="pull-right qouLogoNew" src="./جامعة القدس المفتوحة_files/qouLogoNew.png" border="0" alt="شعار جامعة القدس المفتوحة" title="شعار جامعة القدس المفتوحة" style="vertical-align:middle;">
+<div id="" class="pull-right col-md-5 col-sm-5 col-md-5 col-xs-6 paddingTop10">
+<span class="label-logo">جامعة القدس المفتوحة</span>
+<br>
+<span class="label-logo-small">البوابة الاكاديمية</span>
+</div>
+</div>
+</div>
+<div class="col-sm-1 col-md-1"></div>
+</div>
+<nav id="scroller" class="navbar navbar-default bgColorBar navHeight  noprint" role="navigation">
+<div class="row">
+<div class="col-sm-1 col-md-1"></div>
+<div class="col-sm-10 col-md-10">
+<div class="navbar-header text-left">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#slidemenu">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+</div>
+<div class="collapse navbar-collapse" id="slidemenu">
+<ul id="myUl" class="nav navbar-nav  white-ground">
+<li>
+<a href="https://portal.qou.edu/portalLogin.do">الصفحة الرئيسية</a>
+</li>
+<li>
+<a href="https://www.qou.edu/">صفحة الجامعة</a>
+</li>
+<li>
+<a href="mailto:portal@qou.edu">اتصل بنا</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-left  right-border">
+<li class="dropdown" id="menu1">
+<a href="https://portal.qou.edu/portalLogin.do?reLogin=y#">
+<div align="left">
+<script language="JavaScript">
+                                    <!--
+                        			d = new Date();
+                        			document.write(format_time(d));
+                        			// -->
+                        	     </script>الجمعة/  20 تشرين أول/  2023&nbsp;
+</div>
+</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-sm-1 col-md-1"></div>
+</div>
+</nav>
+</div>
+</div>
+<div class="">
+<div class="col-sm-12 col-md-12 ">
+<script>
+    $(function () {
+        $("#userId").attr("placeholder", "رقم المستخدم");
+        $("#password").attr("placeholder", "كلمة المرور ");
+        $("#secText").attr("placeholder", "كلمة الحماية");
+    });
+
+function loginSub()
+{
+    var defaultUserSettingMode="light";
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        defaultUserSettingMode="dark";
+    }
+    $("#defaultUserSettingMode").val(defaultUserSettingMode);
+
+    document.loginForm.logBtn.disabled = true;
+    document.loginForm.submit();
+    return true;
+}
+
+
+function openCalenderInfo(p)
+{
+    var termNo="1231";
+
+    if(p=='P0')
+    $("#titleDiv").text("فترة التسجيل");
+    else if(p=='P1')
+    $("#titleDiv").text("فترة السحب و الاضافة");
+    else if(p=='P5')
+    {
+        $("#titleDiv").text("فترة بيع طلبات الالتحاق");
+        var pgTermNo="1231";
+        termNo="1231";
+        if(pgTermNo > termNo)
+            termNo = pgTermNo;
+    }
+
+
+    var $iframe = $('#modelIFrame' );
+    if ( $iframe.length )
+    {
+       $iframe.attr('src',"../../regAdmin/regCalendarCentersPublicList.do?.rv=Z6n6szkgn&period="+p+"&termNo="+termNo);
+    }
+    $("#model1").modal('show');
+
+}
+
+
+
+$(function ()
+{
+$(".demo").bootstrapNews({
+newsPerPage: 4,
+navigation: true,
+autoplay: true,
+direction:'up', // up or down
+animationSpeed: 'normal',
+newsTickerInterval: 3000, //4 secs
+pauseOnHover: true,
+onStop: null,
+onPause: null,
+onReset: null,
+onPrev: null,
+onNext: null,
+onToDo: null,
+urlAll:'../../portalLogin.do'
+});
+});
+
+</script>
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/font-awesome.css">
+<link rel="stylesheet" type="text/css" href="./جامعة القدس المفتوحة_files/special-icons.css">
+<div class="">
+<div class="col-sm-1 col-md-1 "></div>
+<div class="col-sm-3 col-md-2  transparent2 ">
+<form name="loginForm" method="post" action="https://portal.qou.edu/login.do">
+<input type="hidden" id="uip" name="uip" value="162.158.80.164">
+<div class="br"></div>
+<p class="label-logo paddingTop5 text-center">تسجيل الدخول</p>
+<p class="label-logo  text-center">للبوابة الاكاديمية</p>
+<div class="text-center text-danger"> </div>
+<div class="alert-danger text-center alert" role="alert">الرجاء تسجيل الدخول</div>
+<div class="br"></div>
+<input type="hidden" id="defaultUserSettingMode" name="defaultUserSettingMode">
+<input type="text" name="userId" value="" class="form-control input-sm" id="userId" placeholder="رقم المستخدم">
+<div class="br"></div>
+<input type="password" name="password" value="" class="form-control input-sm" id="password" placeholder="كلمة المرور ">
+<div class="br"></div>
+<input type="submit" name="logBtn" value="دخول" onclick="return loginSub();" class="btn form-control btn-success input-sm">
+<br><br>
+<a href="https://portal.qou.edu/getAccount.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;تسجيل حساب جديد</a>
+<div class="br"></div>
+<a href="https://portal.qou.edu/forgetPassword.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;نسيت كلمة المرور</a>
+<br>
+<br>
+</form>
+<script type="text/javascript" language="JavaScript">
+  <!--
+  var focusControl = document.forms["loginForm"].elements["userId"];
+
+  if (focusControl.type != "hidden" && !focusControl.disabled) {
+     focusControl.focus();
+  }
+  // -->
+</script>
+</div>
+<div class="col-sm-4 col-md-6 visible-lg visible-md hidden-sm hidden-xs ">
+<div class="panelPadding transparent2 ">
+<div class="br"></div>
+<div>
+<div class="panel panel-default transparent">
+<div class="text-center"> <h4><strong> &nbsp;&nbsp; لوحة إعلانات البوابة </strong></h4></div>
+<div class="br hr_custom "></div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-12" style="overflow: hidden; ">
+<ul class="demo" style="overflow: hidden; height: 120px;">
+
+
+
+
+
+<li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81899&amp;.rv=nfprcHqbvS6BB"> فرصة فريدة من نوعها لنيل لقب أفضل "شركة طلابية" ضمن خوض تجربة مؤسسة إنجاز فلسطين التي تفتح باب التسجيل لبرنامج "مسابقة الشركة الطلابية لطلبة الجامعات للعام 2023 - 2024"</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81845&amp;.rv=awuLJT6"> إعلان إدارة الجامعة ونقابة العاملين السبت 30/9 يوم حداد في الإدارات العامة وفرع رام الله والبيرة</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=82006&amp;.rv=tbbXmQMvKC5j"> إدارة الجامعة ومجلس النقابة والمكتب الحركي المركزي ومجلس الطلبة القطري يعلنون التزامهم بالاضراب الشامل غدا الأربعاء الموافق 18/10/2023</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81966&amp;.rv=fAYbfRUPZj"> تعلن جامعة القدس المفتوحة إلتزامها بالإضراب الشامل الذي اعلنت عنه القوى الوطنية يوم غد الاحد الموافق 8/10/2023</a>
+</div>
+</li><li style="display:none;" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81964&amp;.rv=ZZz8aJjPawPaN5n"> نظرا للاوضاع السائدة وحفاظا على سلامة الطلبة والعاملين، إدارة الجامعة تعلن غدا الاحد الموافق 8/10/2023 دواما إلكترونيا</a>
+</div>
+</li></ul>
+</div>
+</div>
+</div>
+<div class="panel-footer panel-footer2 "> <ul class="pagination pull-right" style="margin: 0px;"><li><button href="#" class="prev btn btn-default"><span class="glyphicon glyphicon-chevron-down"></span></button></li><li><button href="#" class="next btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span></button></li></ul><div class="clearfix"><ul class="pagination pull-left"><li><button href="#" class="all btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button></li></ul></div></div>
+</div>
+</div>
+<div class="br"></div>
+<div class="row ">
+<div class="col-sm-6 col-md-6 ">
+<div><a href="https://www.qou.edu/ar/pdf/stdGuideBook.pdf?.rv=hywcRALkxTLM"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;مرشد الطالب </a></div>
+<div><a href="https://portal.qou.edu/pages/resources/docs/eCoursesGuide.pdf"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;دليل التعليم المدمج</a></div>
+<div><a href="https://www.qou.edu/ar/cardsAndPlans/cards.jsp"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;بطاقات الارشاد الذاتي</a></div>
+<div><a href="https://portal.qou.edu/pages/resources/docs/qou_Adoption.pdf" target="_blank"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;شهادة اعتماد الجامعة كمؤسسة تعليم عالي</a></div>
+</div>
+<div class="col-sm-6 col-md-6 ">
+<div><a href="https://portal.qou.edu/assignmentProgramsList.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التعيينــــات</a></div>
+<div><a href="https://www.qou.edu/ar/cardsAndPlans/plans.jsp"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;الخطــــة الدراسيـــــة</a></div>
+<div><a href="https://portal.qou.edu/calendarProposed.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التقـــويم الأكاديمـــي</a></div>
+<div><a href="https://portal.qou.edu/calendarProposedMaster.do" target="_blank"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التقـــويم الأكاديمـــي الخاص بالدراسات العليا</a></div>
+</div>
+</div>
+</div>
+</div>
+<div class="col-sm-4 col-md-6 visible-sm visible-xs hidden-lg hidden-md transparent2 ">
+<div class="br"></div>
+<div>
+<div class="panel panel-default transparent">
+<div class="text-center"> <h4><strong> لوحة إعلانات البوابة </strong></h4></div>
+<div class="br hr_custom "></div>
+<div class="panel-body">
+<div class="row">
+<div class="col-xs-12" style="overflow: hidden; ">
+<ul class="demo" style="overflow: hidden; height: 8px;">
+
+
+
+
+
+<li style="overflow: hidden; height: 0px; padding-top: 1.45712px; margin-top: 0px; padding-bottom: 1.45712px; margin-bottom: 0px;" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81899&amp;.rv=paMN5maT"> فرصة فريدة من نوعها لنيل لقب أفضل "شركة طلابية" ضمن خوض تجربة مؤسسة إنجاز فلسطين التي تفتح باب التسجيل لبرنامج "مسابقة الشركة الطلابية لطلبة الجامعات للعام 2023 - 2024"</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81845&amp;.rv=8dVAbLVu"> إعلان إدارة الجامعة ونقابة العاملين السبت 30/9 يوم حداد في الإدارات العامة وفرع رام الله والبيرة</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=82006&amp;.rv=2AnYzSmk9JhzFb"> إدارة الجامعة ومجلس النقابة والمكتب الحركي المركزي ومجلس الطلبة القطري يعلنون التزامهم بالاضراب الشامل غدا الأربعاء الموافق 18/10/2023</a>
+</div>
+</li><li style="" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81966&amp;.rv=pgerU2uxuft"> تعلن جامعة القدس المفتوحة إلتزامها بالإضراب الشامل الذي اعلنت عنه القوى الوطنية يوم غد الاحد الموافق 8/10/2023</a>
+</div>
+</li><li style="overflow: hidden; height: 0.36428px; padding-top: 2.54288px; margin-top: 0px; padding-bottom: 2.54288px; margin-bottom: 0px;" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81964&amp;.rv=zTG59SDRxrBs"> نظرا للاوضاع السائدة وحفاظا على سلامة الطلبة والعاملين، إدارة الجامعة تعلن غدا الاحد الموافق 8/10/2023 دواما إلكترونيا</a>
+</div>
+</li><li style="display:none;" class="news-item">
+<div>
+&nbsp;<a target="_blank" href="https://www.qou.edu/ar/viewCmsContentDtl.do?contentId=81899&amp;.rv=paMN5maT"> فرصة فريدة من نوعها لنيل لقب أفضل "شركة طلابية" ضمن خوض تجربة مؤسسة إنجاز فلسطين التي تفتح باب التسجيل لبرنامج "مسابقة الشركة الطلابية لطلبة الجامعات للعام 2023 - 2024"</a>
+</div>
+</li></ul>
+</div>
+</div>
+</div>
+<div class="panel-footer panel-footer2 "> <ul class="pagination pull-right" style="margin: 0px;"><li><button href="#" class="prev btn btn-default"><span class="glyphicon glyphicon-chevron-down"></span></button></li><li><button href="#" class="next btn btn-default"><span class="glyphicon glyphicon-chevron-up"></span></button></li></ul><div class="clearfix"><ul class="pagination pull-left"><li><button href="#" class="all btn btn-default"><span class="glyphicon glyphicon-chevron-left"></span></button></li></ul></div></div>
+</div>
+</div>
+<div class="br"></div>
+<div class="row transparent">
+<div class="col-sm-6 col-md-6 ">
+<div><a href="https://www.qou.edu/ar/pdf/stdGuideBook.pdf?.rv=gnWaRcARWfHnF4"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;مرشد الطالب </a></div>
+<div><a href="https://www.qou.edu/ar/faculties/edu/pdf/textbooksGuide.pdf"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;دليل المقررات العملية</a></div>
+<div><a href="https://portal.qou.edu/pages/resources/docs/eCoursesGuide.pdf"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;دليل المقررات الالكترونية</a></div>
+<div><a href="https://portal.qou.edu/pages/resources/docs/qou_Adoption.pdf"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;شهادة اعتماد الجامعة كمؤسسة تعليم عالي</a></div>
+</div>
+<div class="col-sm-6 col-md-6 ">
+<div><a href="https://portal.qou.edu/assignmentProgramsList.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التعيينــــات</a></div>
+<div><a href="https://portal.qou.edu/calendarProposed.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التقـــويم الأكاديمـــي</a></div>
+<div><a href="https://portal.qou.edu/calendarProposedMaster.do" target="_blank"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التقـــويم الأكاديمـــي الخاص بالدراسات العليا</a></div>
+<div><a href="https://www.qou.edu/ar/cardsAndPlans/plans.jsp"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;الخطــــة الدراسيـــــة</a></div>
+<div><a href="https://www.qou.edu/ar/cardsAndPlans/cards.jsp"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;بطاقات الارشاد الذاتي</a></div>
+</div>
+</div>
+<br>
+</div>
+<div class="col-sm-3 col-md-2 transparent2">
+<p class="label-logo paddingTop5 text-center">فترات هامه</p>
+<div class=""><a class="" href="javascript:openCalenderInfo(&#39;P0&#39;);"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;التسجيل&nbsp;&nbsp;</a></div>
+<div class=""><a class="" href="javascript:openCalenderInfo(&#39;P1&#39;);"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;السحب و الاضافة&nbsp;&nbsp;</a></div>
+<div class="label-important"><a class="text-danger" href="javascript:openCalenderInfo(&#39;P5&#39;);"><span class="glyphicon-important glyphicon-arrow-left"></span>&nbsp;بيع طلبات الالتحاق&nbsp;&nbsp;<span class="badge-important">فعال</span></a></div>
+<div class="br hr_custom "></div>
+<div><a href="https://portal.qou.edu/admission/indexAdmCard.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;طلب الإلتحاق بدرجة البكالوريوس </a></div>
+<div><a href="https://portal.qou.edu/admPgIndexPage.do"><span class="glyphicon glyphicon-arrow-left"></span>&nbsp;طلب الإلتحاق ببرنامج الدراسات العليا</a></div>
+<div class="br hr_custom "></div>
+<p class="label-logo paddingTop5 text-center"><span class="text-danger">التطبيق الاكاديمي</span> </p>
+<p class="text-danger">يمكنك استخدام التطبيق الاكاديمي للاطلاع على جدول الامتحانات و العديد من الخدمات الأخرى</p>
+<table width="100%">
+<tbody><tr>
+<td align="center">
+<a href="https://play.google.com/store/apps/details?id=qou.edu.acad_android_app_v3" target="_blank" aria-expanded="false">
+<img class="img-responsive" src="./جامعة القدس المفتوحة_files/androidBtnImg.png">
+</a>
+</td>
+<td align="center">
+<a href="https://apps.apple.com/us/app/%D8%A7%D9%84%D8%AA%D8%B7%D8%A8%D9%8A%D9%82-%D8%A7%D9%84%D8%A7%D9%83%D8%A7%D8%AF%D9%8A%D9%85%D9%8A/id1503363380?ls=1" target="_blank" aria-expanded="false">
+<img class="img-responsive" src="./جامعة القدس المفتوحة_files/iosBtnImg.png">
+</a>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class="col-sm-1 col-md-1  "></div>
+</div>
+<div class="br"></div>
+<div id="model1" class="modal fade">
+<div class="modal-dialog">
+<div class="modal-content ">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+<h4 class="modal-title"><div id="titleDiv"></div></h4>
+</div>
+<div class="modal-body">
+<div class="row">
+<div class="col-sm-12 col-md-12 text-warning">
+<iframe id="modelIFrame" width="100%" height="370px" src="./جامعة القدس المفتوحة_files/waitPage.html" scrolling="auto" frameborder="0" align="center" marginheight="0" marginwidth="0"></iframe>
+</div>
+</div>
+</div>
+<div class="modal-footer">
+<button type="button" class="btn btn-success" data-dismiss="modal">اغلاق</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="ftr" class="row navbar-fixed-bottom">
+<div class="col-sm-12 col-md-12">
+
+<br>
+<div class="page-footer defaultFont ">
+<div class="row">
+<div class="col-sm-1 col-md-1"></div>
+<div class="col-sm-10 col-md-10 text-center">
+جميع حقوق النشر محفوظة لجامعة القدس المفتوحة
+©&nbsp;2005 - 2023
+</div>
+<div class="col-sm-1 col-md-1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+</body></html>
