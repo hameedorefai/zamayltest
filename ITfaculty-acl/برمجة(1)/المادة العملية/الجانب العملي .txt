@@ -1,0 +1,28 @@
+السلام عليكم 
+مرفق لكم شرح الجزء العملي لمقرر برمجة 2 
+
+1- شرح الوراثة الوحدة الثانية
+https://www.youtube.com/watch?v=OMv4oN7xy-0&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=2
+
+2- شرح الواجهات الوحدة الخامسة
+https://www.youtube.com/watch?v=dezC3TMBbZI&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=2
+
+3- شرح القنوات 1 الوحدة السابعة 
+https://www.youtube.com/watch?v=SAbZDcnqQR8&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=3
+
+4- شرح القنوات 2 الوحدة السابعة
+https://www.youtube.com/watch?v=j6lKuJmjMis&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=4
+
+5- شرح كيف يمكن للمستخدم إدخال قيم باستخدام الصنف Scanner
+https://www.youtube.com/watch?v=EfziWdAEU4o&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=5
+
+6- شرح كيف يمكن للمستخدم إدخال قيم باستخدام الصنف BufferdReader InputStreamReader الوحدة الثامنة
+https://www.youtube.com/watch?v=DpTNkDZgCX8&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=6
+
+7- شرح كود إنشاء ملف والكتابة فيه والقراءة منه الوحدة الثامنة
+https://www.youtube.com/watch?v=-SuqnB5aT7g&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=6
+
+8- شرح الكود البرمجي لإنشاء نسخة من الملف النصي السابق yaqut الوحدة الثامنة
+https://www.youtube.com/watch?v=oTbzVnNMvLA&list=PL1-q_IbQofrPFYwat_lkih4PG9xeCl1xC&index=7
+
+✍🏼 محمد شبات
